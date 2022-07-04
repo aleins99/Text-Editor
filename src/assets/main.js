@@ -26,8 +26,4 @@ for (let option of options) {
 }
 inputss.addEventListener("input", (event) => {
   text.innerText = event.target.value;
-
-  console.log(textClass);
 });
-
-console.log(text);
