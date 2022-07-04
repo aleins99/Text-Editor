@@ -9,7 +9,6 @@ for (let option of options) {
   option.addEventListener("click", () => {
     textClass = option.textContent.toLowerCase();
     // remove all the class wich contains items of alignButtons
-    console.log(text);
     for (let items of alignItems) {
       if (
         text.classList.contains(items.textContent.toLowerCase()) &&
