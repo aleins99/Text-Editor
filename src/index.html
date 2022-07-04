@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Text Editor</title>
+    <link rel="stylesheet" href="styles/style.css" />
+  </head>
+  <body>
+    <header><h1>TextEditor</h1></header>
+    <nav id="navbar">
+      <ul>
+        <li>Bold</li>
+        <li>Italic</li>
+        <li>Underline</li>
+        <li class="align">left</li>
+        <li class="align">center</li>
+        <li class="align">right</li>
+      </ul>
+    </nav>
+    <main class="main-content">
+      <div class="text-content">
+        <h3>Your Document Text</h3>
+        <textarea name="text" id="input-text" cols="39" rows="18"></textarea>
+      </div>
+      <div class="text-content">
+        <h3>Formatted Text</h3>
+        <div id="result-text">
+          <p id="text"></p>
+        </div>
+      </div>
+    </main>
+    <script src="assets/main.js"></script>
+  </body>
+</html>
